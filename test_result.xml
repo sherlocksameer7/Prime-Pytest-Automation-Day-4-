@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="6" time="0.110" timestamp="2022-03-29T14:49:52.394384" hostname="Sherlock-Brothers"><testcase classname="test_Prime_or" name="test_prime_num_or_not[13-True]" time="0.002"><failure message="assert False == True">a = 13, b = True
+
+    @pytest.mark.parametrize("a, b", [(13,True), (4,False), (7,True), (8,True), (21, True), (17, True)])
+    def test_prime_num_or_not(a, b):
+        Res = Prime_or.Prime_or_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_Prime_or.py:8: AssertionError</failure></testcase><testcase classname="test_Prime_or" name="test_prime_num_or_not[4-False]" time="0.001"><failure message="assert None == False">a = 4, b = False
+
+    @pytest.mark.parametrize("a, b", [(13,True), (4,False), (7,True), (8,True), (21, True), (17, True)])
+    def test_prime_num_or_not(a, b):
+        Res = Prime_or.Prime_or_Not(a)
+&gt;       assert Res == b
+E       assert None == False
+
+test_Prime_or.py:8: AssertionError</failure></testcase><testcase classname="test_Prime_or" name="test_prime_num_or_not[7-True]" time="0.001"><failure message="assert False == True">a = 7, b = True
+
+    @pytest.mark.parametrize("a, b", [(13,True), (4,False), (7,True), (8,True), (21, True), (17, True)])
+    def test_prime_num_or_not(a, b):
+        Res = Prime_or.Prime_or_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_Prime_or.py:8: AssertionError</failure></testcase><testcase classname="test_Prime_or" name="test_prime_num_or_not[8-True]" time="0.001" /><testcase classname="test_Prime_or" name="test_prime_num_or_not[21-True]" time="0.001"><failure message="assert False == True">a = 21, b = True
+
+    @pytest.mark.parametrize("a, b", [(13,True), (4,False), (7,True), (8,True), (21, True), (17, True)])
+    def test_prime_num_or_not(a, b):
+        Res = Prime_or.Prime_or_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_Prime_or.py:8: AssertionError</failure></testcase><testcase classname="test_Prime_or" name="test_prime_num_or_not[17-True]" time="0.001"><failure message="assert False == True">a = 17, b = True
+
+    @pytest.mark.parametrize("a, b", [(13,True), (4,False), (7,True), (8,True), (21, True), (17, True)])
+    def test_prime_num_or_not(a, b):
+        Res = Prime_or.Prime_or_Not(a)
+&gt;       assert Res == b
+E       assert False == True
+
+test_Prime_or.py:8: AssertionError</failure></testcase></testsuite></testsuites>
